@@ -65,7 +65,7 @@ namespace WebScrapper
                     }
                     catch (Exception ex)
                     {
-                        Console.WriteLine($"❌ Error saving item '{item.Title}': {ex.Message}");
+                        Console.WriteLine($" Error saving item '{item.Title}': {ex.Message}");
                     }
                 }
             }
